@@ -3,19 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="scss/style.css">
+    <script src="https://kit.fontawesome.com/a94867e6dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scss/main.scss">
     <title>Welcome to my Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="hb-header">
-            <div class = "header-wrapper">
-                <p>Logo</p>
-                <p>CTA</p>
-            </div>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
         </div>
-
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about.html" class="nav-link">
+                        About Me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/work.html" class="nav-link">
+                        My work
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact.html" class="nav-link">
+                        How to reach me
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <h1>Hello</h1>
+
+    <main id = "home">
+        <h1 class="lg-heading">
+            Niki 
+            <span class = "text-secondary">Malmsten</span>
+        </h1>
+        <h2 class="sm-heading">
+            Web Developer, Programmer, Faggot, Fäshiön Desigbner 
+        </h2>
+        <div class="icons">
+            <a href="#!">
+                <i class="fab fa-twitter fa-10x"></i>
+            </a>
+            <a href="#!">
+                <i class="fab fa-instagram fa-10x"></i>
+            </a>
+            <a href="#!">
+                <i class="fab fa-linkedin fa-10x"></i>
+            </a>
+            <a href="#!">
+                <i class="fab fa-github fa-10x"></i>
+            </a>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
