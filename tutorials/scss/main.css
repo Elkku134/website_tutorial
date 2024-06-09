@@ -1,3 +1,22 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+.menu-btn .btn-line {
+  width: 25px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: #fff;
+  transition: all 0.5s ease-out;
+}
+.menu-btn.close {
+  transform: rotate(180deg);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -51,7 +70,7 @@ header {
 }
 
 .text-secondary {
-  color: rgb(229, 255, 0);
+  color: rgb(238, 255, 0);
 }
 
 main {
@@ -65,7 +84,7 @@ main .icons a {
   padding: 0.6rem;
 }
 main .icons a:hover {
-  color: rgb(229, 255, 0);
+  color: rgb(238, 255, 0);
   transition: all 0.5s ease-out;
 }
 main#home {
